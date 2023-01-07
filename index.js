@@ -1,6 +1,7 @@
 import express from 'express';
 import CSV from 'csv-string';
 import {parseCCDate, parseS6Date} from "./date.js";
+import fetch from 'node-fetch';
 
 const app = express();
 
